@@ -26,7 +26,7 @@ project_id = project_info.get("projectId")
 
 
 results=[]
-target_databases = {"AIRLINES","dELIVERY_CENTER","MUSIC"}
+target_databases = {"AIRLINES","DELIVERY_CENTER","MUSIC"}
 for item in data:
     database = item.get("database")
     question = item.get("instruction")
